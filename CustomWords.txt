@@ -1,0 +1,9 @@
+var
+camel case
+snake case
+property
+vocola
+cap
+cap case
+lparen
+rparen
