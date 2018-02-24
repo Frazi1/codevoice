@@ -1,5 +1,6 @@
 # Global voice commands
 
+vocola function = "#Vocola function: ";
 #<number> = 0..99 0..99;
 
 toCamelCase(string) := Strings.ToCamelCase($string);
@@ -7,10 +8,11 @@ toCamelCase(string) := Strings.ToCamelCase($string);
 
 dot = .;
 Kill 1..99 = {Backspace_$1};
+
 CCase <_anything> = toCamelCase($1);
 snake case <_anything> = Strings.ToSnakeCase($1);
 uppercase <_anything> = Strings.ToUppercase($1);
-vocola function = "#Vocola function: ";
+lower <_anything> = Strings.ToLowercase($1);
 
 start line = {Home};
 end line = {End};
@@ -21,4 +23,3 @@ brackets = "[]"{Left};
 
 left paren = "(";
 open quotes = "";
-

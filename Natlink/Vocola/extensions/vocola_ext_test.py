@@ -36,6 +36,7 @@ def processAnything(option, string):
     elif option == 'snake case':
         return toSnakeCase(string)
 
+
 # Vocola function: Strings.ToUppercase
 def toUppercase(string):
     list = string.split(" ")
@@ -44,9 +45,12 @@ def toUppercase(string):
         result.append(i.capitalize())
     return "".join(result)
 
-def lowercase(string):
+
+# Vocola function: Strings.ToLowercase
+def toLowercase(string):
     list = string.split(" ")
     result = []
     for i in list:
-        result.append(i.lowercase())
-    return "".join (result)
+        result.append(i.lower())
+    return "".join(result)
+
