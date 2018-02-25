@@ -54,10 +54,38 @@ def toLowercase(string):
         result.append(i.lower())
     return "".join(result)
 
+
 def lifeIsFunction():
-    thisfunction  = ['one', 'one','second','seven']
-    for index  in thisfunction:
-         print index
+    thisfunction = ['one', 'one', 'second', 'seven']
+    for index in thisfunction:
+        print index
 
 
+def functionTest():
+    myTestEvery = ['close', 'hosts', 'close', 'costs', 'horse']
+    for item in myTestEvery:
+        print item
+    if '\new-line\new line' == True:
+        return False
+    if 'hosts' == None:
+        print (" great")
+    myDiscreditable = ['case', 'test case']
 
+
+def calculate(left, right):
+    if left == right:
+        return left + right
+    elif left < right:
+        return left - right
+    else:
+        return left * right
+
+
+def yourFunctionsBoth(myGreatGreat):
+    myGreatGreat = ['Pam', 'eleven']
+    return myGreatGreat[1]
+
+
+def myFistAuction(first, second):
+    if first == second:
+        return first * second

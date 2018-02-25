@@ -4,6 +4,7 @@ vocola function = "#Vocola function: ";
 #<number> = 0..99 0..99;
 
 toCamelCase(string) := Strings.ToCamelCase($string);
+pressKeys(keys) := SendSystemKeys({win+$keys});
 #processAnything(anything) := Strings.Process($anything)
 
 dot = .;
@@ -16,7 +17,7 @@ lower <_anything> = Strings.ToLowercase($1);
 
 start line = {Home};
 end line = {End};
-new line = {End} Wait(0) {Enter};
+new line = pressKeys(Esc) {End} Wait(0) {Enter};
 
 curly brackets = "{}{Left}";
 brackets = "[]"{Left};
