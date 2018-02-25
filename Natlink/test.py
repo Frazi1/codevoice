@@ -53,3 +53,11 @@ def toLowercase(string):
     for i in list:
         result.append(i.lower())
     return "".join(result)
+
+def lifeIsFunction():
+    thisfunction  = ['one', 'one','second','seven']
+    for index  in thisfunction:
+         print index
+
+
+

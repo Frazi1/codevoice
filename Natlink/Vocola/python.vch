@@ -15,4 +15,6 @@ equals = " == ";
 assign = " = ";
 or = "or ";
 return = "return ";
+condition true = "True";
+false = "False";
 
