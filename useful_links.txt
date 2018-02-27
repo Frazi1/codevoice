@@ -1,0 +1,5 @@
+Mozilla DeepSpeech on Windows - https://fotidim.com/deepspeech-on-windows-wsl-287cb27557d4
+HandsFree - Mozilla DeepSpeech article - http://handsfreecoding.org/2017/12/03/mozilla-deepspeech-initial-release/
+Vocola FAQ - http://vocola.net/programming-by-voice-FAQ.html#section3.4.
+Vocola Win Pad extension - http://vocola.net/unofficial/commands_for_Win32Pad.html
+Vocola extensions http://vocola.net/unofficial/extensions.html
